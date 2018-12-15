@@ -1,6 +1,5 @@
 import styled, { keyframes } from 'styled-components';
 
-
 export const moveUp = keyframes`
   from {
     margin-top: 200px;

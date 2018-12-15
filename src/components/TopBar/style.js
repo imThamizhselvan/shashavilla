@@ -1,35 +1,32 @@
 import styled from 'styled-components';
 
 export const Bar = styled.div`
-  position: fixed;
   height: 50px;
-  width: 100%;
   background: rgba(45,45,45,0.98);
   color: #fff;
   display: flex-container;
+  width: 100%;
+  position: fixed;
 `;
 
 export const Logo = styled.div`
-  margin-left: 30px;
-  text-align: center;
-  margin-top: 6px;
-  position: absolute;
+  padding-left: 30px;
+  padding-top: 6px;
   font-size: 30px;
-  vertical-align: center;
   cursor: pointer;
-  flex-grow: 6;
+  float: left
 `;
 
 export const MenuItem = styled.div`
   display: flex;
   justify-content: flex-end;
   color: #fff;
-  margin-right: 10%;
-  margin-top: 15px;
+  padding-right: 10%;
+  padding-top: 15px;
 `;
 
 export const Item = styled.a`
-  margin-left: 20px;
+  padding-left: 20px;
   cursor: pointer;
   &:hover {
     opacity: 0.65;

@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-import { Home, BigText } from './style';
+import { BigText } from './style';
 
 class MainLayout extends Component {
   render() {
     return (
-      <Home>
+      <div>
         <BigText>Enjoy a revitalizing stay in Peaceful Pondicherry </BigText>
-      </Home>
+        <BigText>Enjoy a revitalizing stay in Peaceful Pondicherry </BigText>
+        <BigText>Enjoy a revitalizing stay in Peaceful Pondicherry </BigText>
+
+      </div>
     );
   }
 }
