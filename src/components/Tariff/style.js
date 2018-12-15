@@ -6,7 +6,10 @@ export const Area = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+`;
 
+export const DescText = styled.p`
+  text-align: center;
 `;
 
 export const Card = styled.div`
