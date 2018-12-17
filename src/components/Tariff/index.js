@@ -5,7 +5,7 @@ import { Area, DescText } from './style';
 class Tariff extends Component {
   render() {
     return (
-      <div>
+      <div id="tariff">
         <DescText> Whether you are a couple or family or gang. </DescText>
         <DescText> We have got your priorities correctly</DescText>
         <Area>

@@ -9,12 +9,14 @@ export const Bar = styled.div`
   position: fixed;
 `;
 
-export const Logo = styled.div`
+export const Logo = styled.a`
   padding-left: 30px;
   padding-top: 6px;
   font-size: 30px;
   cursor: pointer;
-  float: left
+  float: left;
+  text-decoration: none;
+  color: #fff;
 `;
 
 export const MenuItem = styled.div`
@@ -28,6 +30,8 @@ export const MenuItem = styled.div`
 export const Item = styled.a`
   padding-left: 20px;
   cursor: pointer;
+  text-decoration: none;
+  color: #fff;
   &:hover {
     opacity: 0.65;
   }

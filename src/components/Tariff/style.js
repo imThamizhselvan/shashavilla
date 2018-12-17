@@ -14,7 +14,7 @@ export const DescText = styled.p`
 
 export const Card = styled.div`
   height: 300px;
-  background: white;
+  background: #8e8686;
   width: 200px;
   margin: 40px;
   border-radius: 5px;

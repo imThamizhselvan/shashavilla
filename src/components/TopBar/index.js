@@ -5,10 +5,10 @@ class TopBar extends Component {
   render() {
     return (
       <Bar>
-        <Logo> ShaSha Villa </Logo>
+        <Logo href="#home"> ShaSha Villa </Logo>
         <MenuItem>
-          <Item> Facilities </Item>
-          <Item> Tariff </Item>
+          <Item href="#facilities"> Facilities </Item>
+          <Item href="#tariff" > Tariff </Item>
           <Item> Gallery </Item>
           <Item> Location </Item>
           <Item> Contact </Item>

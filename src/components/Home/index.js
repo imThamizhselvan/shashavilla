@@ -10,9 +10,9 @@ class Home extends Component {
       <div>
         <TopBar />
         <div style={{overflow: 'hidden'}}>
-        <MainLayout />
-        <Facilities />
-        <Tariff />
+          <MainLayout />
+          <Facilities />
+          <Tariff />
         </div>
       </div>
     );

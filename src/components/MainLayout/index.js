@@ -4,7 +4,7 @@ import { BigText } from './style';
 class MainLayout extends Component {
   render() {
     return (
-      <div>
+      <div id="home">
         <BigText>Enjoy a revitalizing stay in Peaceful Pondicherry </BigText>
         <BigText>Enjoy a revitalizing stay in Peaceful Pondicherry </BigText>
         <BigText>Enjoy a revitalizing stay in Peaceful Pondicherry </BigText>
