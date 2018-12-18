@@ -9,9 +9,9 @@ class TopBar extends Component {
         <MenuItem>
           <Item href="#facilities"> Facilities </Item>
           <Item href="#tariff" > Tariff </Item>
-          <Item> Gallery </Item>
-          <Item> Location </Item>
-          <Item> Contact </Item>
+          <Item href="#gallery"> Gallery </Item>
+          <Item href="#map"> Location </Item>
+          <Item href="#contact"> Contact </Item>
         </MenuItem>
       </Bar>
     );
