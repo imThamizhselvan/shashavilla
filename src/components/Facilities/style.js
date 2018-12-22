@@ -14,16 +14,19 @@ export const moveUp = keyframes`
 export const BigText = styled.p`
   text-align: center;
   font-size: 20px;
-  margin-top: 50px;
 `;
 
-export const LeftSide = styled.div`
+export const FacilitiesArea = styled.div`
   float: left;
 `;
 
+export const FacilitiesAreaTwo = styled.div`
+  float: right;
+`;
 
-export const FacilitiesArea = styled.div`
-  border:1px solid red;
-  text-align: center;
-  margin: 30px;
+export const Facility = styled.div`
+  min-height: 400px;
+  height: auto;
+  padding: 100px;
+  margin: 150px;
 `;
