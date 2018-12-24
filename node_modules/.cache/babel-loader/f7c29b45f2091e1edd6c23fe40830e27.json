@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var getClassName = function getClassName(defaultClassName, className) {\n  return className ? className.split(' ').concat(defaultClassName).join(' ') : defaultClassName.join(' ');\n};","map":null,"metadata":{},"sourceType":"module"}

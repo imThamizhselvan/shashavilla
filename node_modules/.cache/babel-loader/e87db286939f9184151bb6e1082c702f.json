@@ -1,0 +1,1 @@
+{"ast":null,"code":"var diff = function diff(obj1, obj2) {\n  var toMutate = {};\n  Array.from(new Set(Object.keys(obj1).concat(Object.keys(obj2)))).map(function (key) {\n    if (obj1[key] !== obj2[key]) {\n      toMutate[key] = obj2[key];\n    }\n  });\n  return toMutate;\n};\n\nexport default diff;","map":null,"metadata":{},"sourceType":"module"}

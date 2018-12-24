@@ -1,0 +1,1 @@
+{"ast":null,"code":"var index = 0;\nexport var generateID = function generateID() {\n  return index += 1;\n};","map":null,"metadata":{},"sourceType":"module"}
