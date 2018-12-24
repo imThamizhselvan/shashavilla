@@ -7,6 +7,7 @@ export const Bar = styled.div`
   display: flex-container;
   width: 100%;
   position: fixed;
+  z-index: 9999;
 `;
 
 export const Logo = styled.a`

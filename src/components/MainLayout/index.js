@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import { BigText } from './style';
+import { Home, Img, Center } from './style';
 
 class MainLayout extends Component {
   render() {
     return (
-      <div id="home">
-        <BigText>Enjoy a revitalizing stay in Peaceful Pondicherry </BigText>
-        <BigText>Enjoy a revitalizing stay in Peaceful Pondicherry </BigText>
-        <BigText>Enjoy a revitalizing stay in Peaceful Pondicherry </BigText>
-
-      </div>
+      <Home id="home">
+        <Img src={require('./building.jpeg')} />
+        <Center> <p> Enjoy a revitalizing stay in Peaceful Pondicherry</p> <p> Stay at the international Township "Auroville" </p>  </Center>
+      </Home>
     );
   }
 }

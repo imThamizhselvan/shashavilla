@@ -10,21 +10,16 @@ class Facilities extends Component {
           <h1>Facilities</h1>
           <p>We have ample infra that resolves all your travel owes.</p>
         </Header>
-        <FacilitiesArea>
+        <div>
             <BigText> Huge parking area </BigText>
             <BigText> 24 hours Room Service </BigText>
-            <BigText> Outdoor furnitures </BigText>
-            <BigText> Meeting Room </BigText>
-            <BigText> 24/7 Reception </BigText>
             <BigText> Laundry service on request </BigText>
-        </FacilitiesArea>
-        <FacilitiesAreaTwo>
-            <BigText> Free drinking water </BigText>
-            <BigText> Guide Service </BigText>
-            <BigText> Airport shuttle </BigText>
-            <BigText> Badminton equipment </BigText>
+            <BigText> Airport shuttle & Guide Service </BigText>
             <BigText> Bicycle/Bike rental  </BigText>
-            <BigText> Garden </BigText>
+            <BigText> Activities like Badminton, Gardening, campfire </BigText>
+        </div>
+        <FacilitiesAreaTwo>
+
         </FacilitiesAreaTwo>
       </Facility>
     );

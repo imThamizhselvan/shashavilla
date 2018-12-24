@@ -17,16 +17,15 @@ export const BigText = styled.p`
 `;
 
 export const FacilitiesArea = styled.div`
-  float: left;
 `;
 
 export const FacilitiesAreaTwo = styled.div`
-  float: right;
 `;
 
 export const Facility = styled.div`
   min-height: 400px;
   height: auto;
-  padding: 100px;
-  margin: 150px;
+  padding: 50px;
+  background: rgba(45,45,45,0.98);
+  color: white;
 `;

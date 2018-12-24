@@ -11,9 +11,10 @@ class Tariff extends Component {
           <p>We got rooms for every size of gang</p>
         </Header>
         <Area>
-          <Card size='L' rate='3000' count='3'/>
-          <Card size='XL' rate='4000' count='4'/>
-          <Card size='XXL' rate='5000' count='5'/>
+          <Card size='M' rate='1500' count='2'/>
+          <Card size='L' rate='2500' count='4'/>
+          <Card size='XL' rate='3000' count='6'/>
+          <Card size='XXL' rate='4500' count='8'/>
         </Area>
       </div>
     );

@@ -1,29 +1,32 @@
 import React, { Component } from 'react';
-import GoogleMapReact from 'google-map-react';
+import ReactMapboxGl, { Layer, Feature } from "react-mapbox-gl";
 import { Header } from '../Gallery/style';
 
-const AnyReactComponent = ({ text }) => <div>{ text }</div>;
 export default class Map extends Component {
-  static defaultProps = {
-    center: { lat: 40.7446790, lng: -73.9485420 },
-    zoom: 11
-  }
+
   render() {
+    const Map = ReactMapboxGl({
+      accessToken: "pk.eyJ1IjoiZmFicmljOCIsImEiOiJjaWc5aTV1ZzUwMDJwdzJrb2w0dXRmc2d0In0.p6GGlfyV-WksaDV_KdN27A"
+    });
       return (
         <div id="map" style={{ height: '100vh', width: '100%' }}>
           <Header>
             <h1>Location</h1>
             <p>We are waiting for you here.</p>
           </Header>
-          <GoogleMapReact
-            defaultCenter={ this.props.center }
-            defaultZoom={ this.props.zoom }>
-            <AnyReactComponent
-              lat={ 40.7473310 }
-              lng={ -73.8517440 }
-              text={ "Where's Waldo?" }
-            />
-          </GoogleMapReact>
+          <Map
+            style="mapbox://styles/mapbox/streets-v9"
+            containerStyle={{
+              height: "100vh",
+              width: "100vw"
+            }}>
+              <Layer
+                type="symbol"
+                id="marker"
+                layout={{ "icon-image": "marker-15" }}>
+                <Feature coordinates={[-0.481747846041145, 51.3233379650232]}/>
+              </Layer>
+          </Map>
         </div>
       )
     }
