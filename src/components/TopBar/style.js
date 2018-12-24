@@ -43,6 +43,9 @@ export const MenuItem = styled.div`
   @media (max-width: 600px) {
     padding-top: 10px;
   }
+  @media (max-width: 400px) {
+    padding-right: 3%;
+  }
 
 `;
 
@@ -54,7 +57,8 @@ export const Item = styled.a`
   &:hover {
     opacity: 0.65;
   }
-  @media (max-width: 600px) {
-    padding-left: 15px;
+  @media (max-width: 400px) {
+    padding-left: 10px;
   }
+
 `;
