@@ -1,7 +1,7 @@
 {
   "main.css": "/shashavilla/static/css/main.92e71084.chunk.css",
-  "main.js": "/shashavilla/static/js/main.61c13ea9.chunk.js",
-  "main.js.map": "/shashavilla/static/js/main.61c13ea9.chunk.js.map",
+  "main.js": "/shashavilla/static/js/main.de2685b8.chunk.js",
+  "main.js.map": "/shashavilla/static/js/main.de2685b8.chunk.js.map",
   "static/css/1.d1c8df47.chunk.css": "/shashavilla/static/css/1.d1c8df47.chunk.css",
   "static/js/1.219a6055.chunk.js": "/shashavilla/static/js/1.219a6055.chunk.js",
   "static/js/1.219a6055.chunk.js.map": "/shashavilla/static/js/1.219a6055.chunk.js.map",
@@ -15,6 +15,6 @@
   "static/css/main.92e71084.chunk.css.map": "/shashavilla/static/css/main.92e71084.chunk.css.map",
   "static/css/1.d1c8df47.chunk.css.map": "/shashavilla/static/css/1.d1c8df47.chunk.css.map",
   "index.html": "/shashavilla/index.html",
-  "precache-manifest.5d15e5a781b5dcabfe239be830c47856.js": "/shashavilla/precache-manifest.5d15e5a781b5dcabfe239be830c47856.js",
+  "precache-manifest.1277aa68b5e4dffbbcbde61f3a68d088.js": "/shashavilla/precache-manifest.1277aa68b5e4dffbbcbde61f3a68d088.js",
   "service-worker.js": "/shashavilla/service-worker.js"
 }
