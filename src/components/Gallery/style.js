@@ -6,7 +6,7 @@ export const Header = styled.div`
 `;
 
 export const Galleries = styled.div`
-  margin-left: 10%;
-  margin-right: 10%;
   z-index: 1;
+  background: rgba(45,45,45,0.98);
+  color: white;
 `;

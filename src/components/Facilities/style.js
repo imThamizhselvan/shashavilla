@@ -16,12 +16,6 @@ export const BigText = styled.p`
   font-size: 20px;
 `;
 
-export const FacilitiesArea = styled.div`
-`;
-
-export const FacilitiesAreaTwo = styled.div`
-`;
-
 export const Facility = styled.div`
   min-height: 400px;
   height: auto;

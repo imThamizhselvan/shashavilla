@@ -1,15 +1,22 @@
 import React, { Component } from 'react';
-import ReactMapboxGl, { Layer, Feature } from "react-mapbox-gl";
+import ReactMapboxGl, { Layer, Marker, Feature, ZoomControl } from "react-mapbox-gl";
 import { Header } from '../Gallery/style';
+import { MapMarkerStyle } from './style';
 
 export default class Map extends Component {
 
   render() {
+    const filtered_points = [
+        {
+          name: 'ShaSha Villa',
+          points: [79.8362, 11.9898],
+        }];
+
     const Map = ReactMapboxGl({
-      accessToken: "pk.eyJ1IjoiZmFicmljOCIsImEiOiJjaWc5aTV1ZzUwMDJwdzJrb2w0dXRmc2d0In0.p6GGlfyV-WksaDV_KdN27A"
+      accessToken: "pk.eyJ1IjoiamtyaXNobmEiLCJhIjoiY2lwODMyOTRlMDE2ZHRjbHl0cjdrOHY1YyJ9.EfSggaPaoVi_jUm82n8gZg"
     });
       return (
-        <div id="map" style={{ height: '100vh', width: '100%' }}>
+        <div id="map">
           <Header>
             <h1>Location</h1>
             <p>We are waiting for you here.</p>
@@ -18,14 +25,29 @@ export default class Map extends Component {
             style="mapbox://styles/mapbox/streets-v9"
             containerStyle={{
               height: "100vh",
-              width: "100vw"
-            }}>
+              width: "100vw",
+            }}
+            center={[79.8362, 11.9898]}
+            zoom={[8]}
+            >
+            <ZoomControl />
+
               <Layer
                 type="symbol"
                 id="marker"
                 layout={{ "icon-image": "marker-15" }}>
-                <Feature coordinates={[-0.481747846041145, 51.3233379650232]}/>
               </Layer>
+              {filtered_points.map((item) => {
+                return (
+                  <Marker
+                    coordinates={item.points}
+                    anchor="top"
+                    >
+                    <MapMarkerStyle></MapMarkerStyle>
+                  </Marker>
+                );
+              })}
+
           </Map>
         </div>
       )

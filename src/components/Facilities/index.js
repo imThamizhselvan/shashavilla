@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Header } from '../Gallery/style';
-import { Facility, BigText, FacilitiesArea, FacilitiesAreaTwo } from './style';
+import { Facility, BigText } from './style';
 
 class Facilities extends Component {
   render() {
@@ -18,9 +18,6 @@ class Facilities extends Component {
             <BigText> Bicycle/Bike rental  </BigText>
             <BigText> Activities like Badminton, Gardening, campfire </BigText>
         </div>
-        <FacilitiesAreaTwo>
-
-        </FacilitiesAreaTwo>
       </Facility>
     );
   }

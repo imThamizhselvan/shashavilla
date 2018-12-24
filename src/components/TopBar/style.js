@@ -8,16 +8,30 @@ export const Bar = styled.div`
   width: 100%;
   position: fixed;
   z-index: 9999;
+  @media (max-width: 600px) {
+    text-align: center;
+    height: 55px;
+  }
 `;
 
+
 export const Logo = styled.a`
-  padding-left: 30px;
-  padding-top: 6px;
   font-size: 30px;
   cursor: pointer;
-  float: left;
   text-decoration: none;
   color: #fff;
+  @media (min-width: 601px) {
+    float: left;
+    padding-left: 30px;
+    padding-top: 6px;
+  }
+  @media (max-width: 600px) {
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 4px;
+  }
 `;
 
 export const MenuItem = styled.div`
@@ -26,6 +40,10 @@ export const MenuItem = styled.div`
   color: #fff;
   padding-right: 10%;
   padding-top: 15px;
+  @media (max-width: 600px) {
+    padding-top: 10px;
+  }
+
 `;
 
 export const Item = styled.a`
@@ -35,5 +53,8 @@ export const Item = styled.a`
   color: #fff;
   &:hover {
     opacity: 0.65;
+  }
+  @media (max-width: 600px) {
+    padding-left: 15px;
   }
 `;

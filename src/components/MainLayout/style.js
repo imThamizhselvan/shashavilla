@@ -19,14 +19,14 @@ export const Center = styled.div`
   animation: ${moveUp} 1s;
   text-align: center;
   color: #322f35;
-  @media (max-width: 480px) {
+  font-weight: bolder;
+  @media (max-width: 600px) {
     font-size: 18px;
     left: 5% ;
   }
 `;
 
 export const Img = styled.img`
-  border-radius: 8px;
   max-width: 100%;
   height: auto;
   margin-left: auto;
