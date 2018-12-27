@@ -16,9 +16,8 @@ export const Center = styled.div`
   top: 30%;
   left: 10% ;
   font-size: 48px;
-  animation: ${moveUp} 1s;
   text-align: center;
-  color: #322f35;
+  color: #000000;
   font-weight: bolder;
   @media (max-width: 600px) {
     font-size: 18px;
@@ -28,14 +27,20 @@ export const Center = styled.div`
 
 export const Img = styled.img`
   max-width: 100%;
-  height: auto;
   margin-left: auto;
   margin-right: auto;
   display: block;
   width: 100%;
+  height: 650px;
+  opacity: 0.6;
+  object-fit: cover;
 `;
 
 export const Home = styled.div`
   margin-top: 50px;
   position: relative;
+`;
+
+export const ImagePlaceHolder = styled.div`
+  height: 650px;
 `;

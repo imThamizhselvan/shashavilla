@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import { Home, Img, Center } from './style';
+import { Home, Img, Center, ImagePlaceHolder } from './style';
 
 class MainLayout extends Component {
   render() {
     return (
       <Home id="home">
-        <Img src={require('./room.jpeg')} />
+        <ImagePlaceHolder>
+          <Img src={require('./room.jpeg')} />
+        </ImagePlaceHolder>
         <Center> <p> Enjoy a revitalizing stay in Peaceful Pondicherry</p> <p> Stay at the international Township "Auroville" </p>  </Center>
       </Home>
     );
