@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is for client, but later he granted me permission to open source it for future utilization for other business owners.
+Feel free to add features here.
 
 ## Available Scripts
 
