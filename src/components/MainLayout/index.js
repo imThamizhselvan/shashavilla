@@ -8,7 +8,7 @@ class MainLayout extends Component {
         <ImagePlaceHolder>
           <Img src={require('./room.jpeg')} />
         </ImagePlaceHolder>
-        <Center> <p> Enjoy a revitalizing stay in Peaceful Pondicherry</p> <p> Stay at the international Township "Auroville" </p>  </Center>
+        <Center> <p> Enjoy a revitalizing vacation in Peaceful Pondicherry</p> <p> Stay at the international Township "Auroville" </p>  </Center>
       </Home>
     );
   }

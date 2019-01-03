@@ -13,6 +13,10 @@ export const CardArea = styled.div`
   &:hover {
     box-shadow: 0 0 20px 3px#e8e8e8;
   }
+  @media (max-width: 600px) {
+    border: none;
+    box-shadow: 0 0 20px 3px#e8e8e8;
+  }
 `;
 
 export const Title = styled.h1`

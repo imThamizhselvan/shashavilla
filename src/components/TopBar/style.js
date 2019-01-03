@@ -38,15 +38,13 @@ export const MenuItem = styled.div`
   display: flex;
   justify-content: flex-end;
   color: #fff;
-  padding-right: 10%;
   padding-top: 15px;
+  padding-right: 20px;
   @media (max-width: 600px) {
-    padding-top: 10px;
+    padding-top: 5px;
+    justify-content: center;
+    padding-right: 2px;
   }
-  @media (max-width: 400px) {
-    padding-right: 3%;
-  }
-
 `;
 
 export const Item = styled.a`
