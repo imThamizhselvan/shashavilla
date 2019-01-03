@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/shashavilla/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "bcf3b7a33cf700b767d4",
-    "url": "/shashavilla/static/css/main.cb737f0a.chunk.css"
+    "revision": "72dc5c5bc0d62c63d8e4",
+    "url": "/shashavilla/static/css/main.47034503.chunk.css"
   },
   {
-    "revision": "10c06b8c6d64bd20f932",
-    "url": "/shashavilla/static/js/1.10c06b8c.chunk.js"
+    "revision": "ccf692a856d11d5fa864",
+    "url": "/shashavilla/static/js/1.ccf692a8.chunk.js"
   },
   {
-    "revision": "a543d3023a0df9d992bd",
-    "url": "/shashavilla/static/js/2.a543d302.chunk.js"
+    "revision": "699f66cb9c2d088a1fa1",
+    "url": "/shashavilla/static/js/2.699f66cb.chunk.js"
   },
   {
     "revision": "ee8666bf0b3fb8e68bfe",
@@ -24,28 +24,28 @@ self.__precacheManifest = [
     "url": "/shashavilla/static/media/room8.39a23a99.jpeg"
   },
   {
-    "revision": "ef0cb8b86dfb4885af15",
-    "url": "/shashavilla/static/js/4.ef0cb8b8.chunk.js"
+    "revision": "4f8f3365885fa827e787",
+    "url": "/shashavilla/static/js/4.4f8f3365.chunk.js"
   },
   {
     "revision": "b11f949b24c84cb444440acab7b58b87",
     "url": "/shashavilla/static/media/lobby3.b11f949b.jpeg"
   },
   {
-    "revision": "35d80f50bd4d2574b31c",
-    "url": "/shashavilla/static/js/5.35d80f50.chunk.js"
+    "revision": "a37e89de002324bc8610",
+    "url": "/shashavilla/static/js/5.a37e89de.chunk.js"
   },
   {
-    "revision": "a7144b503fc5ea0cdb2e",
-    "url": "/shashavilla/static/js/runtime~main.a7144b50.js"
+    "revision": "ca40e0781f6accb4e7a6",
+    "url": "/shashavilla/static/js/runtime~main.ca40e078.js"
   },
   {
     "revision": "f840cf20622355b672f8e8f6faf4e0dc",
     "url": "/shashavilla/static/media/room.f840cf20.jpeg"
   },
   {
-    "revision": "bcf3b7a33cf700b767d4",
-    "url": "/shashavilla/static/js/main.bcf3b7a3.chunk.js"
+    "revision": "72dc5c5bc0d62c63d8e4",
+    "url": "/shashavilla/static/js/main.72dc5c5b.chunk.js"
   },
   {
     "revision": "f5a093e4cc2ded27bd0a4e764796f3c3",
@@ -80,15 +80,15 @@ self.__precacheManifest = [
     "url": "/shashavilla/static/media/room7.e8a7a185.jpeg"
   },
   {
-    "revision": "35d80f50bd4d2574b31c",
-    "url": "/shashavilla/static/css/5.88983c8c.chunk.css"
+    "revision": "a37e89de002324bc8610",
+    "url": "/shashavilla/static/css/5.1bcbed8e.chunk.css"
   },
   {
-    "revision": "ef0cb8b86dfb4885af15",
-    "url": "/shashavilla/static/css/4.fb89affc.chunk.css"
+    "revision": "4f8f3365885fa827e787",
+    "url": "/shashavilla/static/css/4.0ebb897e.chunk.css"
   },
   {
-    "revision": "cbda322871b07303d577cebeef6d48a2",
+    "revision": "83fd2ffbac8a45cc758d2389f0965b2a",
     "url": "/shashavilla/index.html"
   }
 ];
