@@ -13,36 +13,44 @@ class Gallery extends Component {
         </Header>
         <Carousel showArrows={true} >
             <div>
-                <img src={require('./building.jpeg')} />
-                <p className="legend">Traditional French style Villa outside with ample space</p>
-            </div>
-            <div>
-                <img src={require('./room.jpeg')} />
-                <p className="legend">Spacious room to create memories</p>
+                <img src={require('./room2.jpeg')} />
+                <p className="legend">World class bed linen</p>
             </div>
             <div>
                 <img src={require('./room1.jpeg')} />
-                <p className="legend">Cottage House </p>
-            </div>
-            <div>
-                <img src={require('./room2.jpeg')} />
-                <p className="legend">Fully airconditioned room</p>
-            </div>
-            <div>
-                <img src={require('./building.jpeg')} />
-                <p className="legend">Traditional French style Villa outside with ample space</p>
-            </div>
-            <div>
-                <img src={require('./room.jpeg')} />
                 <p className="legend">Spacious room to create memories</p>
             </div>
             <div>
-                <img src={require('./room1.jpeg')} />
-                <p className="legend">Cottage House </p>
+                <img src={require('./room3.jpeg')} />
+                <p className="legend">Kitchen </p>
             </div>
             <div>
-                <img src={require('./room2.jpeg')} />
+                <img src={require('./lobby1.jpeg')} />
+                <p className="legend">Teak wood interiors</p>
+            </div>
+            <div>
+                <img src={require('./lobby2.jpeg')} />
+                <p className="legend">Traditional French style Villa with ample space</p>
+            </div>
+            <div>
+                <img src={require('./room5.jpeg')} />
+                <p className="legend">Big window that connect with nature</p>
+            </div>
+            <div>
+                <img src={require('./room6.jpeg')} />
+                <p className="legend">Modern wood works </p>
+            </div>
+            <div>
+                <img src={require('./room7.jpeg')} />
                 <p className="legend">Fully airconditioned room</p>
+            </div>
+            <div>
+                <img src={require('./lobby3.jpeg')} />
+                <p className="legend">Well ventilated surroundings</p>
+            </div>
+            <div>
+                <img src={require('./room8.jpeg')} />
+                <p className="legend">Ample space to enjoy a relaxed stay</p>
             </div>
         </Carousel>
       </Galleries>
