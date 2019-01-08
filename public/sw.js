@@ -1,6 +1,6 @@
-const cacheName = 'assets-sashavilla-v2';
+const cacheName = 'assets-sashavilla-v1';
 const files = [
-    'http://localhost:3000/static/media/room.ad481e0d.jpeg'
+    '/static/media/room.f840cf20.jpeg'
 ];
 
 self.addEventListener('install', (e) => {
@@ -18,7 +18,7 @@ self.addEventListener('activate', (e) => {
         caches.keys().then(names => {
             names.forEach((item) => {
                 if (item !== cacheName) {
-                    caches.delete(cacheName);
+                    caches.delete(item);
                 }
             })
         })    
@@ -26,12 +26,11 @@ self.addEventListener('activate', (e) => {
 })
 
 self.addEventListener('fetch', (e) => {
-    if (e.request.url.includes('room.ad481e0d')) {
+    if (e.request.url.includes('room.f840cf20')) {
         e.respondWith(
             caches.match(e.request)
                 .then(response => {
                     if (response) {
-                        console.log('found in cache');
                         return response;
                     }
                     return fetch(e.request);
