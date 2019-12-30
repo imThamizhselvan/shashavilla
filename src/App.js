@@ -13,6 +13,14 @@ const AppRouter = () => (
 );
 
 class App extends Component {
+
+  componentDidMount = () => {
+    const elm = document.getElementsByClassName('lds-ring');
+    if (elm.length > 0) {
+      elm[0].style.display = 'none';
+    }
+  }
+
   render() {
     return (
       <div>
