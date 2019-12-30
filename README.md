@@ -1,7 +1,32 @@
-This project is for client, but later he granted me permission to open source it for future utilization for other business owners.
+This project is for my Friend George's homestay property, he granted me permission to open source it for future utilization for other developers/business.
+
 Feel free to add features here.
 
-## Available Scripts
+#Intuitive Design
+I planned to make this project neat and clean
+so I went on to use the basic colors like grey,
+black and white. This gives a minimalist style
+and feels to the user that matches with the
+hotel theme and also provides a clear image of
+the app. And the carousel is introduced to
+provide a smooth seamless user interface.
+
+#Interactive Gallery View With Lazy loading Technique
+I wanted to make sure that the user have a
+seamless experience while using the website.
+So I added a lazy loading technique to load
+the images so the image will be loaded after the
+user scrolled to the particular image slide.
+
+#Increase in booking
+With the deployment of the app, the site
+experience more booking during the weekend
+and also on weekdays. And this provides the hotel
+with the online presence that enables to
+connect with young age group people.
+
+
+## Below are the Scripts that you can use
 
 In the project directory, you can run:
 
